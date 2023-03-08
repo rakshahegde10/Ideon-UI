@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ideon-UI/static/css/main.4f0a9e5f.css",
+    "main.js": "/Ideon-UI/static/js/main.e6b4eb9f.js",
+    "static/js/787.b15ddc3d.chunk.js": "/Ideon-UI/static/js/787.b15ddc3d.chunk.js",
+    "static/media/logo.jpeg": "/Ideon-UI/static/media/logo.c1db40b2f13fbaaa78d7.jpeg",
+    "index.html": "/Ideon-UI/index.html",
+    "main.4f0a9e5f.css.map": "/Ideon-UI/static/css/main.4f0a9e5f.css.map",
+    "main.e6b4eb9f.js.map": "/Ideon-UI/static/js/main.e6b4eb9f.js.map",
+    "787.b15ddc3d.chunk.js.map": "/Ideon-UI/static/js/787.b15ddc3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f0a9e5f.css",
+    "static/js/main.e6b4eb9f.js"
+  ]
+}
