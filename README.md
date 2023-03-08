@@ -6,4 +6,10 @@ To run the application:<br/>
 1. Run "npm install"
 2. Run "npm start"
 
+-----or-----<br/>
+
+You can also run the UI using Github pages, click the link below:<br/>
+https://rakshahegde10.github.io/Ideon-UI
+
+
 
