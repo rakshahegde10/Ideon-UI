@@ -1,12 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 
 const { tableau } = window;
+
 let viz;
 
 
 function TableauDashboard() {
   const ref = useRef(null);
-  var url = "https://public.tableau.com/views/First_Milestone_ITP_Ideon/Dashboard1" ;
+  var url = "https://public.tableau.com/views/Second_Milestone_ITP_Ideon/Dashboard2" ;
 
   const options = {
     device: "desktop"
@@ -14,6 +15,7 @@ function TableauDashboard() {
 
   function initViz() {
     if(viz){
+      viz.dispose();
       viz = new tableau.Viz(ref.current, url, options)
     }else{
       viz = new tableau.Viz(ref.current, url)

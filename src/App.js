@@ -1,18 +1,24 @@
-import './App.css';
-import TableauDashboard from './component/tableauDashboard';
+import "./App.css";
+import NavBar from "./components/navigationBar";
+import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
+import { Home } from "./components/pages/Home";
+import { Dashboard } from "./components/pages/Dashboard";
 
 function App() {
-
-  return(
-    <div className='App'>
-          <div>
-          <h3 className='AppHeader'>Milestone - 1</h3>
-          </div>
-          <div className='AppDash'>
-          <TableauDashboard />
-          </div>
-    </div>
-
+  return (
+    <>
+      <Router>
+        <div>
+          <NavBar />
+        </div>
+        <div className="pages">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Routes>
+        </div>
+      </Router>
+  </>
   );
 }
 
